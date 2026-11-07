@@ -8,7 +8,7 @@
 
 개념 정리와 학습 내용은 블로그에 따로 작성하고 있습니다.
 
-- 블로그: [블로그 이름](https://velog.io/@nooheajmik/posts)
+- 블로그: [티스토리](https://kimjh7816.tistory.com/)
 
 ## 📂 저장소 구조
 
@@ -26,8 +26,19 @@
 
 | 장 | 제목 | 예제 코드 | 블로그 |
 | --- | --- | --- | --- |
-| 01 | 프로그래밍 | 없음 | [링크](https://velog.io/@nooheajmik/%EB%AA%A8%EB%8D%98-%EC%9E%90%EB%B0%94-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-Deep-Dive-1%EC%9E%A5) |
+| 04 | 변수 | [바로가기](./ch04_변수) | [링크](https://) |
+| 05 | 표현식과 문 | [바로가기](./ch05_표현식과_문) | [링크](https://) |
 |  |  |  |  |
+
+## ▶️ 실행 방법
+
+예제 코드는 [Node.js](https://nodejs.org/) 환경에서 실행할 수 있습니다.
+
+```bash
+node ch04_변수/example.js
+```
+
+브라우저 환경이 필요한 예제(DOM, 이벤트 등)는 HTML 파일을 브라우저에서 열어 확인합니다.
 
 ## 📖 참고
 
