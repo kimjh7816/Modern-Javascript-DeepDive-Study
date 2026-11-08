@@ -1,0 +1,16 @@
+<script>
+    // 1
+    // 예상: {} / 실제: return; 으로 해석되어 undefined
+    function foo () {
+        return
+            {}
+        }
+
+    console.log(foo());
+
+    // 2
+    // 예상: bar에 함수 할당 후 즉시 실행 함수 호출
+    // 실제: function () {}(function() {})(); 로 이어져 해석되어 TypeError
+    var bar = function () {}
+    (function() {})();
+</script>
