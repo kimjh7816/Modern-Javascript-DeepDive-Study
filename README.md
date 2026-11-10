@@ -30,6 +30,7 @@
 | 04 | 변수 | [바로가기](./ch04_변수) | [링크](https://kimjh7816.tistory.com/1) |
 | 05 | 표현식과 문 | [바로가기](./ch05_표현식과문) | [링크](https://kimjh7816.tistory.com/2) |
 | 06 | 데이터 타입 | [바로가기](./ch06_데이터타입) | [링크](https://kimjh7816.tistory.com/3) |
+| 07 | 연산자 | [바로가기](./ch07_연산자) | [링크](https://kimjh7816.tistory.com/4) |
 |  |  |  |  |
 
 ## 📖 참고
