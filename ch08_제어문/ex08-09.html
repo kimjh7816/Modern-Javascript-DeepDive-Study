@@ -1,0 +1,24 @@
+<script>
+    var year = Number(prompt("연도를 숫자로 입력하세요.", ""));
+    var month = Number(prompt("월을 숫자로 입력하세요.", ""));
+    var days = 0;
+
+    if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+        document.write(`${year}년은 윤년이다.<br>`);
+    }
+
+    switch (month) {
+        case 1: case 3: case 5: case 7: case 8: case 10: case 12:
+            days = 31;
+            break;
+        case 4: case 6: case 9: case 11:
+            days = 30;
+            break;
+        case 2:
+            days = ((year % 4 === 0 && year % 100 != 0) || (year % 400 === 0)) ? 29 : 28;
+            break;
+        default:
+            document.write(`Invalid month`);
+    }
+    document.write(`${month}월은 ${days}일이다.`);
+</script>

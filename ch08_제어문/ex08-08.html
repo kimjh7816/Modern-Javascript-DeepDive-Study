@@ -1,0 +1,28 @@
+<script>
+    // 월을 영어로 변환하는 프로그램
+    var month = Number(prompt("월을 숫자로 적어주세요.", ""));
+    var monthName;
+
+    switch (month) {
+        case 1: monthName = 'January'; break;
+        case 2: monthName = 'February'; break;
+        case 3: monthName = 'March'; break;
+        case 4: monthName = 'April'; break;
+        case 5: monthName = 'May'; break;
+        case 6: monthName = 'June'; break;
+        case 7: monthName = 'July'; break;
+        case 8: monthName = 'August'; break;
+        case 9: monthName = 'September'; break;
+        case 10: monthName = 'October'; break;
+        case 11: monthName = 'November'; break;
+        case 12: monthName = 'December'; break;
+        default: monthName = 'Invalid month';
+    }
+
+    if (monthName === 'Invalid month') {
+        document.write(`1~12 사이의 숫자가 아닙니다.`);
+    }
+    else {
+        document.write(`${month}월은 영어로 ${monthName}`);
+    }
+</script>

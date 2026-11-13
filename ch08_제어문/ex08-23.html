@@ -1,0 +1,16 @@
+<script>
+    var string = 'Hello World.';
+    var search = 'l';
+    var count = 0;
+
+    for (var i = 0; i < string.length; i++) {
+        if (string[i] !== search) continue;
+        count++;
+    }
+
+    document.write(count);
+
+    // 메서드를 사용해도 같은 동작
+    const regexp = new RegExp(search, 'g');
+    document.write(string.match(regexp).length);
+</script>
